@@ -1,3 +1,7 @@
+import hacksaw from "/resources/hacksaw.jpeg";
+import frames from "/resources/frames.jpeg";
+import finnish from "/resources/finnish.jpeg";
+
 export function MainComponent(){
     return (
 <>
@@ -5,7 +9,7 @@ export function MainComponent(){
 <div className="cateContainer">
      <div className="cateBox">
           <h2><a className="brushes">Brushes </a></h2>
-          <img src="./resources/hacksaw.jpeg" />
+          <img src={hacksaw} />
           <h3>Hacksaw Brushed</h3>
           <button>Enter</button>
           <p>Made of the highest quality oak, Hacksaw brushes are not known for their weight and ability
@@ -13,7 +17,7 @@ export function MainComponent(){
      </div>
      <div className="cateBox">
           <h2><a className="frames">Frames</a></h2>
-          <img src="./resources/frames.jpeg" />
+          <img src={frames} />
           <h3>Art Frames (assorted)</h3>
           <button>Enter</button>
           <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames
@@ -21,7 +25,7 @@ export function MainComponent(){
      </div>
      <div class="cateBox">
           <h2><a class="paint">Paint</a></h2>
-          <img src="./resources/finnish.jpeg" />
+          <img src={finnish} />
           <h3>Clean Finnish Paint</h3>
           <button>Enter</button>
           <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to

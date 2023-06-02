@@ -8,9 +8,9 @@
 .navBox{
   height: 20px;
   
- margin-left: 5px;
+ margin-left: 10px;
  margin-right: 10px;
-  justify-content: space-evenly;
+  
 }
 
 
@@ -71,5 +71,7 @@ h3{
 }
 
 .contactBox{
-  width: 200px;
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
